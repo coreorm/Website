@@ -1,0 +1,17 @@
+{
+    "name": "CoreORM/Website",
+    "description": "CoreORM Website",
+    "require": {
+        "coreorm/framework": "*",
+        "slim/slim": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CW\\":"private"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
